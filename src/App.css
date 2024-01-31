@@ -1,0 +1,62 @@
+.body {
+  height: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formbuild{
+  display: flex; 
+  flex-direction: column;
+  
+  align-items: center; 
+  
+  height: 20rem; 
+ 
+}
+.Form{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black; 
+  max-width: 500px;
+}  
+
+.name{
+  margin-top: 20px;
+} 
+
+.gender{
+  /* display: flex;  */
+  margin: 1rem;
+
+} 
+.Checkbox{
+  margin-left: 4rem; 
+  margin-bottom: 1rem;
+} 
+
+.Country{
+  /* display:  flex; */
+  margin-right: 1rem; ;
+ 
+} 
+.error{
+  color: red;
+} 
+
+.Submit{
+  background-color: brown;
+  color: white; 
+  margin-top: 1rem;
+  
+}
+.Submit:hover{
+  color:black
+}
+
+
+
+
+
+
